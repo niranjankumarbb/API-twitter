@@ -33,11 +33,9 @@ module.exports.showTweets = (req, res) => {
                             console.log("NEW USER SAVED", user);
                             res.json(user);
                         })
-                })
-                   
+                })                   
             }
         })
-
 }
 
 module.exports.createUser = (req, res) => {

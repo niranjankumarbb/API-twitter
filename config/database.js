@@ -5,5 +5,4 @@ const setupDB = () => {
      .then(()=>{console.log("connected to db")})
      .catch(err => console.log(err))
 }
-
 module.exports = setupDB;
